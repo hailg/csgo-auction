@@ -1,0 +1,6 @@
+selenium==3.141.0
+PyInputPlus==0.2.12
+beautifulsoup4==4.9.3
+Pillow==8.0.1
+requests==2.25.1
+click==7.1.2
