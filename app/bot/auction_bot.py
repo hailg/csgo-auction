@@ -160,7 +160,7 @@ def send_slack_message(msg: str, whole_channel=True):
     if whole_channel and "<!channel>" not in msg:
         msg = f"<!channel> {msg}"
     requests.post(
-        "https://hooks.slack.com/services/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",
+        "https://hooks.slack.com/services/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",
         json={"text": msg},
     )
 
