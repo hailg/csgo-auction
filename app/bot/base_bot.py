@@ -49,7 +49,7 @@ class BaseBot(ABC):
         options.add_argument("--start-maximized")
         options.add_argument("--disable-dev-shm-usage")
         options.headless = headless
-        self.driver = webdriver.Chrome(options=options)
+        self.driver = webdriver.Chrome("./chromedriver", options=options, )
         self.driver.maximize_window()
 
     def sign_in(self, username: str, password: str):
